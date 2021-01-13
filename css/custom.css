@@ -1,0 +1,149 @@
+body {
+    font-family: 'Red Hat Text', sans-serif;
+    background-color: hsl(234, 17%, 12%);
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    padding: 6% 10%;
+}
+
+.container-fluid {
+    padding: 4% 10%;
+}
+
+
+/* Heading Section */
+
+.star-background {
+    background-image: url(../images/bg-stars.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main-heading {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 10px;
+}
+
+
+
+/* Social Section */
+
+.hill-background {
+    background-image: url(../images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.social-images {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+
+.social-images:hover {
+    
+}
+
+
+
+
+/* Card Section */
+
+.card {
+    background-color: hsl(234, 17%, 12%);
+}
+
+.card-top {
+    background-color:hsl(236, 21%, 26%);
+    border-radius: 10px;
+    color: hsl(345, 95%, 68%);
+}
+
+.card-top-heading {
+    font-size: 6rem;
+}
+
+
+.card-bottom-heading {
+    letter-spacing: 8px;
+    padding-top: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 27%;
+    }
+
+    .container-fluid {
+        padding: 15% 5%;
+    }
+
+    /* Heading Section */
+    .main-heading {
+        font-size: 1.5rem;
+        letter-spacing: 4px;
+    }
+
+
+    /* Card Section */
+    .card-top-heading {
+        font-size: 3rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card-bottom {
+        padding-top: 2%;
+    }
+
+    .card-bottom-heading {
+        letter-spacing: 3px;
+        font-size: .6rem;
+    }
+
+    /* Social Section */
+
+    .hill-background {
+        background-size: cover;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+
+  }
