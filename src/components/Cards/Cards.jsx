@@ -9,7 +9,9 @@ function Cards() {
     var [second, setSecond] = React.useState("60");
     var [minute, setMinute] = React.useState("55");
 
-    function startTiming() {
+    
+    
+    window.onload = function () {
         setInterval(() => {setSecond(prevalue => {
             if (prevalue === 0 ) {
 
@@ -22,9 +24,11 @@ function Cards() {
             }
         })}
         ,1000);
-
-
     }
+        
+
+
+ 
 
 
 
@@ -38,7 +42,7 @@ function Cards() {
 
                 
             </div>
-            <button onClick={startTiming} className="btn-danger">Start</button>
+           
         </div>
    
     )
